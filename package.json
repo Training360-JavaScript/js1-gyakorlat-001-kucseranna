@@ -1,0 +1,25 @@
+{
+  "name": "vwa-js-001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test01 && npm run test02 && npm run test03 && npm run test04 && npm run test05",
+    "test01": "jest test-kvggcj/jest/test-01.spec.js",
+    "test02": "jest test-kvggcj/jest/test-02.spec.js",
+    "test03": "jest test-kvggcj/jest/test-03.spec.js",
+    "test04": "jest test-kvggcj/jest/test-04.spec.js",
+    "test05": "jest test-kvggcj/jest/test-05.spec.js",
+    "test06": "jest test-kvggcj/jest/test-06.spec.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^10.4.0",
+    "rewire": "^5.0.0",
+    "rewire-global": "^1.0.11"
+  }
+}
